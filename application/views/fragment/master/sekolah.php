@@ -20,6 +20,7 @@
                 <th>Alamat</th>
                 <th>Tanggal Dibuat</th>
                 <th>Status</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -38,7 +39,7 @@
         columnDefs: [{ 
             orderable: false,
             width: '100px',
-            targets: [ 4 ]
+            targets: [ 5 ]
         }],
         dom: '<"datatable-header"fl><"datatable-scroll"t><"datatable-footer"ip>',
         language: {

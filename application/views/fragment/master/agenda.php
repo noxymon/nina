@@ -19,7 +19,7 @@
             </tr>
         </thead>
         <tbody>
-            {data.content}
+            {detail.kelas}
         </tbody>
     </table>
 </div>

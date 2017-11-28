@@ -55,8 +55,9 @@ $route['translate_uri_dashes'] = FALSE;
 
 // Routes for Entity Mentee
 $route['master/mentee'] = 'mentee/index';
-$route['master/mentee/(:any)'] = 'mentee/$1';
+$route['master/mentee/([a-zA-Z]+)'] = 'mentee/$1';
 
 // Routes for Entity Sekolah
 $route['master/sekolah'] = 'sekolah/index';
-$route['master/sekolah/(:any)'] = 'sekolah/$1';
+$route['master/sekolah/([a-zA-Z]+)'] = 'sekolah/$1';
+$route['master/sekolah/detail/(:num)'] = 'sekolah/detail/$1';
