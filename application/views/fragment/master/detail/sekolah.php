@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="panel-body">
-                    <iframe id="mapInfo" style="width: 100%;height: 30em;" src="{detail.location}"></iframe>
+                    <iframe id="mapInfo" style="width: 100%;height: 30em;border: 0" frameBorder="0" src="{detail.location}"></iframe>
                 </div>
             </div>
             <!-- /available hours -->
@@ -41,10 +41,9 @@
                 <div class="panel-heading">
                     <h6 class="panel-title">Informasi Kelas</h6>
                     <div class="heading-elements">
-                        <ul class="icons-list">
-                            <li><a data-action="collapse"></a></li>
-                            <li><a data-action="reload"></a></li>
-                        </ul>
+                        <a href="index.php/master/mentee/form" type="button" class="btn btn-danger btn-raised btn-sm legitRipple">
+                            <i class="icon-plus3 position-left"></i> Add New
+                        </a>
                     </div>
                 </div>
 

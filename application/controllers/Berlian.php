@@ -6,7 +6,7 @@ class Berlian extends CI_Controller
     {
         if(is_cli()){
             $this->load->model('model_berlian');
-            $tableIncludeStr = "tb_master_kelas";
+            $tableIncludeStr = "tb_trans_mentee_kelas";
             $tableIncludeArray = explode(",", $tableIncludeStr);
             foreach ($tableIncludeArray as $key => $tbl) {
                 if($tbl != null){

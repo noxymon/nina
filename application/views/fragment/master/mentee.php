@@ -3,9 +3,6 @@
     <div class="panel-heading">
         <h5 class="panel-title">List {fragment.title}</h5>
         <div class="heading-elements">
-            <!-- <ul class="icons-list">
-                <li><a data-action="reload"></a></li>
-            </ul> -->
             <a href="index.php/master/mentee/form" type="button" class="btn btn-danger btn-raised btn-sm legitRipple">
                 <i class="icon-plus3 position-left"></i> Add New
             </a>
@@ -64,5 +61,9 @@
     $('.dataTables_length select').select2({
         minimumResultsForSearch: Infinity,
         width: '75px'
+    });
+
+    $(document).ready(function() {
+        {hook.finishload}
     });
 </script>

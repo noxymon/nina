@@ -61,3 +61,6 @@ $route['master/mentee/([a-zA-Z]+)'] = 'mentee/$1';
 $route['master/sekolah'] = 'sekolah/index';
 $route['master/sekolah/([a-zA-Z]+)'] = 'sekolah/$1';
 $route['master/sekolah/detail/(:num)'] = 'sekolah/detail/$1';
+
+// Routes for ajax
+$route['ajax/get-class-from-school/(:num)'] = 'ajax/getClassFromSchool/$1';
